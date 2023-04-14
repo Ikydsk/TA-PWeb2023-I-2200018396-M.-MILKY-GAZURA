@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WEB DIV & FORM</title>
+	<style>
+		body {
+			background-color: #e6e6e6;
+		}
+		.container {
+			width: 100%;
+		}
+		.menu {
+			width: 25%;
+			text-align: center;
+			background-color: grey;
+			padding: 10px;
+			float: left;
+			height: 250px;
+		}
+		.menu h3 {
+			color: white;
+		}
+		.menu a {
+			color: white;
+			text-decoration: none;
+			display: block;
+			margin-bottom: 10px;
+		}
+		.content {
+			width: 67%;
+			padding: 10px;
+			float: right;
+			background-color: white;
+		}
+		.content p {
+			text-align: center;
+			font-weight: bold;
+			margin-top: 0;
+		}
+		.form-table {
+			width: 100%;
+		}
+		.form-table td {
+			padding: 5px;
+		}
+		.form-table input[type="text"],
+		.form-table select,
+		.form-table textarea {
+			width: 100%;
+			padding: 5px;
+			border-radius: 3px;
+			border: 1px solid #ccc;
+			box-sizing: border-box;
+			font-size: 16px;
+			margin-bottom: 10px;
+		}
+		.form-table input[type="radio"] {
+			margin-right: 10px;
+		}
+		.form-table textarea {
+			height: 100px;
+		}
+		.form-table input[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			border-radius: 3px;
+			padding: 10px;
+			cursor: pointer;
+		}
+		.form-table input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+		.form-table input[type="submit"]:last-child {
+			background-color: #f44336;
+		}
+		.form-table input[type="submit"]:last-child:hover {
+			background-color: #c9302c;
+		}
+	</style>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <h3>Menu</h3>
+            <a href="lp.html">:: Input Biodata</a>
+            <a href="daftar.html">:: Input Pendaftaran</a>
+        </div>
+        <div class="content">
+            <p>Form Input Biodata</p>
+    
+            <form action="" method="POST">
+                <table class="form-table">
+                    <tr>
+                        <td>Nama</td>
+                        <td><input type="text" name="nama"></td>
+                    </tr>
+    
+                    <tr>
+                        <td>Alamat</td>
+                        <td><input type="text" name="alamat"></td>
+                    </tr>
+    
+                    <tr>
+                        <td>Telp</td>
+                        <td> <input type="text" name="telpon"></td>
+                    </tr>
+    
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td> <input type="radio" name="jk">Laki-laki
+                        <input type="radio" name="jk">Perempuan</td>
+                    </tr>
+    
+                    <tr>
+                        <td></td>
+                        <tr>
+                            <td>Agama</td>
+                            <td><select name:Agama>
+                                <option value="Islam">Islam</option>
+                                <option value="Kristen">Kristen</option>
+                                <option value="Katolik">Katolik</option>
+                                <option value="Hindu">Hindu</option>
+                                <option value="Buddha">Buddha</option>
+                                <option value="Konghucu">Konghucu</option>
+                            </select></td>
+                        </tr>
+    
+                        <tr>
+                            <td>Prestasi yang pernah diraih</td>
+                            <td> <textarea></textarea></td>
+                        </tr>
+    
+    
+    
+                        <tr>
+                            <td colspan="2">
+                                <input type="submit" name="Simpan" value="Simpan">
+                                <input type="submit" name="Batal" value="Batal">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    
+    </body>
+    </html>
+    
