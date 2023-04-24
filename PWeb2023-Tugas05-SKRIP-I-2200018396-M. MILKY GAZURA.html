@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contoh Layout Web</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+      }
+      .navbar {
+    background-color: #6673c6;
+    height: 100vh;
+    width: 10%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navbar li {
+    margin: 10px 0;
+  }
+  
+  .navbar a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  #header {
+    background-color: #eee;
+    padding: 40px;
+    margin-left: 90px;
+    text-align: center;
+    height: fit-content;
+  }
+  
+  #header h1 {
+    margin: 0;
+  }
+  
+  #body {
+    padding: 20px;
+    margin-left: 150px;
+    text-align: justify;
+  }
+  
+  #body h2 {
+    margin-top: 1;
+  }
+  
+  #body img {
+    max-width: 18%;
+  }
+  
+  #footer {
+    background-color: #6673c6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 15%;
+    left: 0;
+  }
+  
+  #biodata {
+    background-color: #bcbcbcd8;
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    height: 490px;
+  }
+  
+  table {
+    float: left;
+}
+
+table {
+  text-align: left;
+  
+}
+td:first-child{
+  text-align: left;
+  padding-right: 150px;
+}
+td:last-child{
+  text-align: left;
+
+  
+}
+
+  .social-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links li {
+  margin: 0 27px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <ul>
+      <li><a href="#header">HOME</a></li>
+     <li><a href="#biodata">Biodata</a></li>
+      <li><a href= "https://portal.uad.ac.id">Portal UAD</a></li>
+      <li><a href= "https://uad.ac.id/id/">Web UAD</a></li>
+      <li><a href= "https://elearning.uad.ac.id/">E-Learning UAD</a></li>
+      <li><a href= "https://github.com/Ikydsk/TA-PWeb2023-I-2200018396-M.-MILKY-GAZURA">Github</a></li>
+      <li><a href= "https://wa.me/+6281254367698">Kontak</a></li>
+    </ul>
+  </div>
+  <div id="header">
+    <h1>BIODATA MAHASISWA</h1>
+    
+</div>
+<div id="body">
+
+  <img src ="iky.jpg" alt="Gambar 1" img align="right" src="iky.jpg" alt="Gambar 2">
+
+  <p><b>Data Pribadi</b><br />
+   <b>Nama : M. Milky Gazura</b><br />
+   <b>NIM : 2200018396</b><br />
+   <b>Tempat Lahir : Banjarmasin, Kalimantan Selatan</b><br />
+   <b>Hobi : Basket, Belajar, Badminton</b><br />
+   <b>Alamat : Jl. Kaliurang, Yogyakarta</b><br /></p>
+
+  <p></p><p><b>Pendidikan</b><br />
+   <b>Jenjang Pendidikan : S1</b><br />
+   <b>Program Studi : Informatika</b><br />
+   <b>Fakultas : Teknologi Industri</b><br />
+   <b>Universitas : Universitas Ahmad Dahlan</b></p>
+  
+  
+</div>
+
+<div id="biodata">
+    <h1>BIODATA MAHASISWA</h1>
+    <table>
+      <tr>
+        <td>Nama</td>
+        <td>:</td>
+        <td>M. Milky Gazura</td>
+      </tr>
+      <tr>
+        <td>NIM</td>
+        <td>:</td>
+        <td>2200018396</td>
+      </tr>
+      <tr>
+        <td>Tempat Lahir</td>
+        <td>:</td>
+        <td>Banjarmasin</td>
+      </tr>
+      <tr>
+        <td>Jenis Kelamin</td>
+        <td>:</td>
+        <td>Laki-Laki</td>
+      </tr>
+      <tr>
+        <td>Agama</td>
+        <td>:</td>
+        <td>Islam</td>
+      </tr>
+      <tr>
+        <td>Hobi</td>
+        <td>:</td>
+        <td>Basket, Badminton, Belajar</td>
+      </tr>
+      <tr>
+        <td>Alamat</td>
+        <td>:</td>
+        <td>Jl. Kaliurang, Yogyakarta</td>
+      </tr>
+      <tr>
+        <td>Instagram</td>
+        <td>:</td>
+        <td>@gazuraiky</td>
+      </tr>
+      <tr>
+        <td>No.HP</td>
+        <td>:</td>
+        <td>081254367698</td>
+      </tr>
+      <tr>
+        <td>Jenjang Pendidikan</td>
+        <td>:</td>
+        <td>S1</td>
+      </tr>
+      <tr>
+        <td>Program Studi</td>
+        <td>:</td>
+        <td>Informatika</td>
+      </tr>
+      <tr>
+        <td>Fakultas</td>
+        <td>:</td>
+        <td>Teknologi Industri</td>
+      </tr>
+      <td>Universitas</td>
+        <td>:</td>
+        <td>Universitas Ahmad Dahlan</td>
+      </tr>
+
+    </table>
+
+<div id="footer">
+  <h3>Instagram  |  YouTube</h3>
+  <ul class="social-links">
+    <li>
+      <a href="https://instagram.com/gazuraiky?igshid=YmMyMTA2M2Y= ">
+        <img src="ig.jpg" alt="Instagram" width="40" height="30">
+      </a>
+    </li>
+    <li>
+      <a href="https://youtube.com/@m.milkygazura4548">
+        <img src="yt.png" alt="Youtube" width="40" height="30">
+      </a>
+    </li>
+  </ul>
+  
+</div>
+</body>
+</html>
